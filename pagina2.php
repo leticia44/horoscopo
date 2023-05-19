@@ -81,7 +81,7 @@
                     break;
                 case 9:
                     if($dia >= 23){
-                        echo "<img src='img/libra.jpg'>";
+                        echo "<img src='img/libraa.jpg'>";
                     } else{
                         echo "<img src='img/virgem.jpg'>";
                     }
