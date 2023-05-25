@@ -5,6 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Verificador de Signo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    link h
 </head>
 <body>
     <h1>HORÓSCOPO</h1>
@@ -18,34 +19,40 @@
         if(isset($_GET["data"])){
             $data = date_parse($_GET["data"]);
             $signo = getSigno($data["month"], $data["day"]);
-            echo "<p>Seu signo é: $signo</p>";
         }
 
         function getSigno($mes, $dia){
             switch($mes){
                 case 1:
                     if($dia >= 20){
+                        echo "<p>Seu signo é: Aquario </p>";
                         echo "<img src='img/aquario.jpg'>";
                     } else{
+                        echo "<p>Seu signo é: Capricornio </p>";
                         echo "<img src='img/capricornio.jpg'>";
                     }
                     break;
                 case 2:
                     if($dia >= 19){
+                        echo "<p>Seu signo é: Peixex </p>";
                         echo "<img src='img/peixes.jpg'>";
                     } else{
+                        echo "<p>Seu signo é: Aquario </p>";
                         echo "<img src='img/aquario.jpg'>";
                     }
                     break;
                 case 3:
                     if($dia >= 21){
+                        echo "<p>Seu signo é: Aries </p>";
                         echo "<img src='img/aries.jpg'>";
                     } else{
+                        echo "<p>Seu signo é: Peixes </p>";
                         echo "<img src='img/peixes.jpg'>";
                     }
                     break;
                 case 4:
                     if($dia >= 20){
+                        echo "<p>Seu signo é: Touro </p>";
                         echo "<img src='img/touro.jpg'>";
                     } else{
                         echo "<img src='img/aries.jpg'>";
@@ -81,6 +88,7 @@
                     break;
                 case 9:
                     if($dia >= 23){
+                        echo "<p>Seu signo é: Libra </p>";
                         echo "<img src='img/libraa.jpg'>";
                     } else{
                         echo "<img src='img/virgem.jpg'>";
@@ -90,6 +98,7 @@
                     if($dia >= 23){
                         echo "<img src='img/escorpiao.jpg'>";
                     } else{
+                        echo "<p>Seu signo é: Libra </p>";
                         echo "<img src='img/libra.jpg'>";
                     }
                     break;
