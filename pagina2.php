@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Verificador de Signo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    link h
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>HORÓSCOPO</h1>

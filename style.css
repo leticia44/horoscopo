@@ -1,8 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+    margin: 20px;
 }
 
 h1 {
@@ -10,29 +8,26 @@ h1 {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-top: 20px;
 }
 
 label {
     font-weight: bold;
-    margin-bottom: 10px;
 }
 
 input[type="date"] {
     padding: 5px;
+    border-radius: 5px;
     border: 1px solid #ccc;
-    border-radius: 3px;
 }
 
 input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
     border: none;
-    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -44,7 +39,6 @@ p {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 200px;
+    max-width: 300px;
     height: auto;
-    margin-top: 20px;
 }
